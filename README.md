@@ -29,7 +29,7 @@ Instalar o Selenium:
 
 Firefox (GeckoDriver):
 
-O Bugfy usa o GeckoDriver para controlar o navegador Firefox.
+O Watercat usa o GeckoDriver para controlar o navegador Firefox.
 Como instalar o GeckoDriver:
 
 Baixar o GeckoDriver: Acesse https://github.com/mozilla/geckodriver/releases e baixe a versão do GeckoDriver compatível com o seu sistema operacional.
