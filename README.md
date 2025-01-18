@@ -26,3 +26,20 @@ Instalar o pip:
 Instalar o Selenium:
 
     pip3 install selenium
+
+Firefox (GeckoDriver):
+
+O Bugfy usa o GeckoDriver para controlar o navegador Firefox.
+Como instalar o GeckoDriver:
+
+Baixar o GeckoDriver: Acesse https://github.com/mozilla/geckodriver/releases e baixe a versão do GeckoDriver compatível com o seu sistema operacional.
+
+Adicionar o GeckoDriver ao PATH: Para Windows, mova o geckodriver.exe para um diretório e adicione esse diretório ao PATH ou forneça o caminho absoluto no código:
+
+    from selenium import webdriver
+
+    driver = webdriver.Firefox(executable_path='C:/geckodriver/geckodriver.exe')
+
+Para Linux ou macOS, mova o geckodriver para um diretório como /usr/local/bin:
+
+    sudo mv geckodriver /usr/local/bin/
