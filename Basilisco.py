@@ -9,11 +9,10 @@ from webdriver_manager.firefox import GeckoDriverManager  # Instala automaticame
 
 # Exibindo a arte ASCII
 print("""
-  ____       _   _       ____      _____      __   __
- | __ )     | | | |     / ___|    |  ___|    \ \ / /
- |  _ \     | | | |    | |  _     | |__       \ V /  
- | |_) |    | |_| |    | |_| |    |  __|       | |    
- |____/     |_____|     \____|    |_|          |_|    
+____    __    ___  ____  __    ____  ___   ___  _____ 
+(  _ \  /__\  / __)(_  _)(  )  (_  _)/ __) / __)(  _  )
+ ) _ < /(__)\ \__ \ _)(_  )(__  _)(_ \__ \( (__  )(_)( 
+(____/(__)(__)(___/(____)(____)(____)(___/ \___)(_____)  
 """)
 
 # Perguntar ao usuário pela URL, nome de usuário e senhas a serem testadas
